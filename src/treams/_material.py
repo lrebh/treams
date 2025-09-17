@@ -186,7 +186,7 @@ class Material:
     def impedance(self):
         r"""Relative impedance.
 
-        The relative impedance is defined by :math:`Z = \sqrt{\frac{\epsilon}{\mu}}`.
+        The relative impedance is defined by :math:`Z = \sqrt{\frac{\mu}{\epsilon}}`.
 
         Returns:
             complex
